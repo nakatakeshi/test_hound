@@ -1,0 +1,6 @@
+ruby:
+  enabled: true
+  config_file: .rubocop.yml
+jshint:
+  config_file: .javascript-style.json
+  ignore_file: .javascript_ignore
