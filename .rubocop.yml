@@ -1,0 +1,41 @@
+inherit_from: .rubocop_todo.yml
+
+LineLength:
+  Enabled: false
+
+AsciiComments:
+  Enabled: false
+
+HashSyntax:
+  Enabled: false
+
+SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+RedundantSelf:
+  Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_parentheses
+
+Style/FirstParameterIndentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 20
+
+AllCops:
+  Exclude:
+    - "exclude.rb"
